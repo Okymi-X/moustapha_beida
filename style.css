@@ -1,0 +1,101 @@
+/* Style général du body */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Style de la navigation */
+nav {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style de la section */
+section {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+article {
+    flex: 3;
+}
+
+/* Style de l'aside */
+aside {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* Style du footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > div {
+    flex: 1;
+    text-align: left;
+    width: 25%;
+}
+
+/* Style de la bannière */
+#banniere {
+    text-align: center;
+}
+
+#banniere img {
+    max-width: 100%;
+    height: auto;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
